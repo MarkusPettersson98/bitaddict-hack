@@ -3,10 +3,10 @@
   "version": "1.0",
   "description": "Everyone needs a cat once in a while",
   "icons": {
-      "16": "cute_cat.jpg",
-      "32": "cute_cat.jpg",
-      "48": "cute_cat.jpg",
-      "128": "cute_cat.jpg"
+      "16": "cute_cat.jpeg",
+      "32": "cute_cat.jpeg",
+      "48": "cute_cat.jpeg",
+      "128": "cute_cat.jpeg"
     },
   "permissions": [
       "tabs"
