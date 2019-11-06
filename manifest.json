@@ -16,7 +16,7 @@
       "128": "cute_cat.png"
     }
   },
-  "permissions": ["tabs", "contextMenus"],
+  "permissions": ["tabs", "contextMenus", "activeTab"],
   "background": {
     "scripts": ["background.js"]
   },
