@@ -8,6 +8,14 @@
       "48": "cute_cat.jpeg",
       "128": "cute_cat.jpeg"
     },
+  "browser_action": {
+          "default_icon": {
+            "16": "cute_cat.jpeg",
+            "32": "cute_cat.jpeg",
+            "48": "cute_cat.jpeg",
+            "128": "cute_cat.jpeg"
+          }
+  },
   "permissions": [
       "tabs"
     ],
