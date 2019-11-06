@@ -9,7 +9,7 @@
       "128": "cute_cat.jpg"
     },
   "permissions": [
-      "tabs"
+      "tabs", "contextMenus"
     ],
     "background": {
       "scripts": ["background.js"]
