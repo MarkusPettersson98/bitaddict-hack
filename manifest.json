@@ -1,0 +1,11 @@
+{
+  "name": "CatAddict",
+  "version": "1.0",
+  "description": "Everyone needs a cat once in a while",
+  "manifest_version": 2
+},
+{
+  "permissions": [
+    "tabs"
+  ]
+}
