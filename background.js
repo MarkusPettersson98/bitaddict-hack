@@ -22,7 +22,10 @@ chrome.contextMenus.create({
   contexts: ['selection'],
   onclick: function(info, tab) {
     console.log(`background.js: selected text: ${info.selectionText}`);
-    sendSearch(info.selectionText);
+    const selectedWords = info.selectionText.split(' ');
+    console.log(`background.js: splitted selected text: ${selectedWords[1]}`)
+    const randomIndex = Math.floor(Math.random()*selectedWords.length);
+    sendSearch(selectedWords[randomIndex]);
   }
 });
 
